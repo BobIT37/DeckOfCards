@@ -1,9 +1,6 @@
 package com.deckofcardsapi.integration;
 
-
-
 import org.apache.commons.lang3.StringUtils;
-
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -11,6 +8,11 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
+
+/**
+ * @author Ilhan
+ */
+
 
 public class Tests extends BaseTest {
 	

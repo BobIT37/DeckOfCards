@@ -1,5 +1,11 @@
 package com.deckofcardsapi.items;
 
+/**
+ * @author Ilhan
+ */
+
+
+
 public class CardsPojo {
 	
 	private String image;

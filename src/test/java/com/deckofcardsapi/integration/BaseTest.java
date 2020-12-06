@@ -7,6 +7,11 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
+/**
+ * @author Ilhan
+ */
+
+
 public class BaseTest {
 	protected RequestSpecification httpRequest;
 	public static final String NEW_DECK_RESOURCE = "/deck/new/";
